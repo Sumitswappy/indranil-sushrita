@@ -11,7 +11,7 @@ export default function Navbar() {
   const googleCalendarLink = `https://www.google.com/calendar/render?action=TEMPLATE&text=Indranil+%26+Sushrita+Wedding&dates=20260206T123000Z/20260206T163000Z&details=Join+us+celebrating+the+wedding+of+Indranil+and+Sushrita!&location=26,+Nandi+Bagan,+Ramlal+Bazar,+Haltu,+Kolkata-700078&sf=true&output=xml`;
 
   // Map Link
-  const mapLink = "https://www.google.com/maps/search/?api=1&query=26,+Nandi+Bagan,+Ramlal+Bazar,+Haltu,+Kolkata-700078";
+  const mapLink = "https://www.google.com/maps/search/?api=1&query=U.M.B+Hall+26+Nandi+Bagan+Ramlal+Bazar+Haltu+Kolkata-700078";
 
   return (
     <nav className="fixed bottom-6 left-1/2 transform -translate-x-1/2 z-50">
