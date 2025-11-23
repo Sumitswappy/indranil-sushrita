@@ -1,7 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  output: "export",      // <--- Creates the 'out' folder for Netlify
+  images: {
+    unoptimized: true,   // <--- Required for images to work in static mode
+  },
 };
 
 export default nextConfig;
