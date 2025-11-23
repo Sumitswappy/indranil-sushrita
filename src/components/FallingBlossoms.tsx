@@ -40,7 +40,7 @@ export default function FallingBlossoms() {
       {petals.map((petal) => (
         <div
           key={petal.id}
-          className="absolute top-[-10%] text-pink-200/80"
+          className="absolute top-[-10%] text-pink-300/80"
           style={{
             left: `${petal.left}%`,
             fontSize: `${Math.random() * 10 + 10}px`, // Random size 10px-20px
@@ -48,7 +48,7 @@ export default function FallingBlossoms() {
             animationDelay: `${petal.delay}s`,
           }}
         >
-          🌸
+          ♥️
         </div>
       ))}
     </div>
